@@ -12,10 +12,10 @@ import (
 )
 
 type Item struct {
-	cStockID      string
-	CStockName    string
-	CNewestSeason string
-	CNewestRev    string
+	cStockID      string `json:"cStockID" bson:"cStockID"`
+	CStockName    string `json:"cStockName " bson:"cStockName "`
+	CNewestSeason string `json:"cNewestSeason" bson:"cNewestSeason"`
+	CNewestRev    string `json:"cNewestRev" bson:"cNewestRev"`
 
 	CSign1        string
 	CSign2        string
