@@ -47,6 +47,28 @@ type Item struct {
 	CnewestRevMonth string `json:"cnewest_Rev_month" bson:"cnewest_Rev_month"`
 	CluX            string `json:"cluX" bson:"cluX"`
 	CnluXMoM        string `json:"ccnluX_MoM" bson:"cnluX_MoM"`
+
+	//CProfitN []string
+	//CProfit  []string
+	Cb1N  string  `json:"cb1N" bson:"cb1N"`
+	Cb2N  string  `json:"cb2N" bson:"cb2N"`
+	Cb3N  string  `json:"cb3N" bson:"cb3N"`
+	Cb4N  string  `json:"cb4N" bson:"cb4N"`
+	Cb5N  string  `json:"cb5N" bson:"cb5N"`
+	Cb6N  string  `json:"cb6N" bson:"cb6N"`
+	Cb7N  string  `json:"cb7N" bson:"cb7N"`
+	Cb8N  string  `json:"cb8N" bson:"cb8N"`
+	Cb1   float64 `json:"cb1" bson:"cb1"`
+	Cb2   float64 `json:"cb2" bson:"cb2"`
+	Cb3   float64 `json:"cb3" bson:"cb3"`
+	Cb4   float64 `json:"cb4" bson:"cb4"`
+	Cb5   float64 `json:"cb5" bson:"cb5"`
+	Cb6   float64 `json:"cb6" bson:"cb6"`
+	Cb7   float64 `json:"cb7" bson:"cb7"`
+	Cb8   float64 `json:"cb8" bson:"cb8"`
+	Cb9   float64 `json:"cb9" bson:"cb9"`
+	Cb10  float64 `json:"cb10" bson:"cb10"`
+	Cb10P string  `json:"cb10P" bson:"cb10P"`
 }
 
 var collection *mongo.Collection
