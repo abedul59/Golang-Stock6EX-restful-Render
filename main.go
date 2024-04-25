@@ -26,8 +26,10 @@ type Item struct {
 	ClossGain     string `json:"cLossGain" bson:"cLossGain"`
 	CreateDate    string `json:"CreateDate" bson:"CreateDate"`
 
-	Ca1N string `json:"ca1N" bson:"ca1N"`
-	Ca2N string `json:"ca2N" bson:"ca2N"`
+	CrevN []string `json:"cRevN" bson:"cRevN"`
+	Crev  []string `json:"cRev" bson:"cRev"`
+	Ca1N  string   `json:"ca1N" bson:"ca1N"`
+	Ca2N  string   `json:"ca2N" bson:"ca2N"`
 }
 
 var collection *mongo.Collection
