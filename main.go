@@ -17,14 +17,14 @@ type Item struct {
 	CNewestSeason string
 	CNewestRev    string
 
-	cSign1        string
-	cSign2        string
-	cSign3        string
-	cSign4        string
-	cSign5        string
-	cSign6        string
-	cAverageScore string
-	cLossGain     string
+	CSign1        string
+	CSign2        string
+	CSign3        string
+	CSign4        string
+	CSign5        string
+	CSign6        string
+	CAverageScore string
+	CLossGain     string
 	CreateDate    string
 
 	cRevN string
