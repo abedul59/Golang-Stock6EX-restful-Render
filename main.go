@@ -27,15 +27,15 @@ type Item struct {
 	LossGain     string `json:"cLossGain" bson:"cLossGain"`
 	CreateDate   string `json:"CreateDate" bson:"CreateDate"`
 
-	cRevN string `json:"cRevN" bson:"cRevN"`
-	cRev  string `json:"cRev" bson:"cRev"`
-	ca1N  string `json:"ca1N" bson:"ca1N"`
-	ca2N  string `json:"ca2N" bson:"ca2N"`
-	ca3N  string `json:"ca3N" bson:"ca3N"`
-	ca4N  string `json:"ca4N" bson:"ca4N"`
-	ca5N  string `json:"ca5N" bson:"ca5N"`
-	ca6N  string `json:"ca6N" bson:"ca6N"`
-	ca7N  string `json:"ca7N" bson:"ca7N"`
+	RevN string `json:"cRevN" bson:"cRevN"`
+	Rev  string `json:"cRev" bson:"cRev"`
+	a1N  string `json:"ca1N" bson:"ca1N"`
+	ca2N string `json:"ca2N" bson:"ca2N"`
+	ca3N string `json:"ca3N" bson:"ca3N"`
+	ca4N string `json:"ca4N" bson:"ca4N"`
+	ca5N string `json:"ca5N" bson:"ca5N"`
+	ca6N string `json:"ca6N" bson:"ca6N"`
+	ca7N string `json:"ca7N" bson:"ca7N"`
 
 	cna1              string
 	cna2              string
