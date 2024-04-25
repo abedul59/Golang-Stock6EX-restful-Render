@@ -13,29 +13,29 @@ import (
 
 type Item struct {
 	CStockID      string `json:"cStockID" bson:"cStockID"`
-	CStockName    string `json:"cStockName " bson:"cStockName "`
+	CStockName    string `json:"cStockName " bson:"cStockName"`
 	CNewestSeason string `json:"cNewestSeason" bson:"cNewestSeason"`
 	CNewestRev    string `json:"cNewestRev" bson:"cNewestRev"`
 
 	CSign1        string `json:"cSign1" bson:"cSign1"`
 	CSign2        string `json:"cSign2" bson:"cSign2"`
 	CSign3        string `json:"cSign3" bson:"cSign3"`
-	CSign4        string `json:"cSign4" bson:"Sign4"`
+	CSign4        string `json:"cSign4" bson:"cSign4"`
 	CSign5        string `json:"cSign5" bson:"cSign5"`
 	CSign6        string `json:"cSign6" bson:"cSign6"`
 	CAverageScore string `json:"cAverageScore" bson:"cAverageScore"`
 	CLossGain     string `json:"cLossGain" bson:"cLossGain"`
 	CreateDate    string `json:"CreateDate" bson:"CreateDate"`
 
-	cRevN string
-	cRev  string
-	ca1N  string
-	ca2N  string
-	ca3N  string
-	ca4N  string
-	ca5N  string
-	ca6N  string
-	ca7N  string
+	cRevN string `json:"cRevN" bson:"cRevN"`
+	cRev  string `json:"cRev" bson:"cRev"`
+	ca1N  string `json:"ca1N" bson:"ca1N"`
+	ca2N  string `json:"ca2N" bson:"ca2N"`
+	ca3N  string `json:"ca3N" bson:"ca3N"`
+	ca4N  string `json:"ca4N" bson:"ca4N"`
+	ca5N  string `json:"ca5N" bson:"ca5N"`
+	ca6N  string `json:"ca6N" bson:"ca6N"`
+	ca7N  string `json:"ca7N" bson:"ca7N"`
 
 	cna1              string
 	cna2              string
