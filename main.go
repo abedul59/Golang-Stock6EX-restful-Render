@@ -12,7 +12,7 @@ import (
 )
 
 type Item struct {
-	CStockID      string
+	cStockID      string
 	CStockName    string
 	CNewestSeason string
 	CNewestRev    string
