@@ -27,15 +27,15 @@ type Item struct {
 	CLossGain     string
 	CreateDate    string
 
-	CRevN string
-	CRev  string
-	Ca1N  string
-	Ca2N  string
-	Ca3N  string
-	Ca4N  string
-	Ca5N  string
-	Ca6N  string
-	Ca7N  string
+	cRevN string
+	cRev  string
+	ca1N  string
+	ca2N  string
+	ca3N  string
+	ca4N  string
+	ca5N  string
+	ca6N  string
+	ca7N  string
 
 	cna1              string
 	cna2              string
