@@ -44,9 +44,9 @@ type Item struct {
 	Cna7            string `json:"cna7" bson:"cna7"`
 	Cna9            string `json:"cna9" bson:"cna9"`
 	Cna10           string `json:"cna10" bson:"cna10"`
-	CnewestRevMonth string `json:"cnewestRevMonth" bson:"cnewestRevMonth"`
+	CnewestRevMonth string `json:"cnewest_Rev_month" bson:"cnewest_Rev_month"`
 	CluX            string `json:"cluX" bson:"cluX"`
-	CnluXMoM        string `json:"cnluXMoM" bson:"cnluXMoM"`
+	CnluXMoM        string `json:"ccnluX_MoM" bson:"cnluX_MoM"`
 }
 
 var collection *mongo.Collection
