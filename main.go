@@ -27,15 +27,15 @@ type Item struct {
 	CLossGain     string
 	CreateDate    string
 
-	cRevN string
-	cRev  string
-	ca1N  string
-	ca2N  string
-	ca3N  string
-	ca4N  string
-	ca5N  string
-	ca6N  string
-	ca7N  string
+	CRevN string
+	CRev  string
+	Ca1N  string
+	Ca2N  string
+	Ca3N  string
+	Ca4N  string
+	Ca5N  string
+	Ca6N  string
+	Ca7N  string
 
 	cna1              string
 	cna2              string
@@ -136,26 +136,26 @@ type Item struct {
 	cd7   string
 	cd8   string
 
-	CCashFlowN string
-	CCashFlow  string
-	Cf1N       string
-	Cf2N       string
-	Cf3N       string
-	Cf4N       string
-	Cf5N       string
-	Cf6N       string
-	Cf7N       string
-	Cf8N       string
-	Cf1        string
-	Cf2        string
-	Cf3        string
-	Cf4        string
-	Cf5        string
-	Cf6        string
-	Cf7        string
-	Cf8        string
-	Cf9        string
-	Cf10       string
+	cCashFlowN string
+	cCashFlow  string
+	cf1N       string
+	cf2N       string
+	cf3N       string
+	cf4N       string
+	cf5N       string
+	cf6N       string
+	cf7N       string
+	cf8N       string
+	cf1        string
+	cf2        string
+	cf3        string
+	cf4        string
+	cf5        string
+	cf6        string
+	cf7        string
+	cf8        string
+	cf9        string
+	cf10       string
 }
 
 var collection *mongo.Collection
