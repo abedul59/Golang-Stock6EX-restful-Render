@@ -26,16 +26,15 @@ type Item struct {
 	CAverageScore string
 	CLossGain     string
 	CreateDate    string
-
-	cRevN string
-	cRev  string
-	ca1N  string
-	ca2N  string
-	ca3N  string
-	ca4N  string
-	ca5N  string
-	ca6N  string
-	ca7N  string
+	CRevN         string
+	cRev          string
+	ca1N          string
+	ca2N          string
+	ca3N          string
+	ca4N          string
+	ca5N          string
+	ca6N          string
+	ca7N          string
 
 	cna1              string
 	cna2              string
