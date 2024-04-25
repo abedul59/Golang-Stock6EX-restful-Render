@@ -12,7 +12,7 @@ import (
 )
 
 type Item struct {
-	CStockID      string
+	cStockID      string
 	CStockName    string
 	CNewestSeason string
 	CNewestRev    string
@@ -193,7 +193,7 @@ func readItem(c *gin.Context) {
 	name := c.Param("name")
 
 	var item Item
-	err := collection.FindOne(context.Background(), bson.M{"CStockID": name}).Decode(&item)
+	err := collection.FindOne(context.Background(), bson.M{"cStockID": name}).Decode(&item)
 	if err != nil {
 		c.JSON(404, gin.H{"error": "Item not found"})
 		return
