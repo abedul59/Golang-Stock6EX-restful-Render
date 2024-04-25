@@ -12,20 +12,20 @@ import (
 )
 
 type Item struct {
-	cStockID      string `json:"cStockID" bson:"cStockID"`
+	CStockID      string `json:"cStockID" bson:"cStockID"`
 	CStockName    string `json:"cStockName " bson:"cStockName "`
 	CNewestSeason string `json:"cNewestSeason" bson:"cNewestSeason"`
 	CNewestRev    string `json:"cNewestRev" bson:"cNewestRev"`
 
-	CSign1        string
-	CSign2        string
-	CSign3        string
-	CSign4        string
-	CSign5        string
-	CSign6        string
-	CAverageScore string
-	cLossGain     string
-	CreateDate    string
+	CSign1        string `json:"cSign1" bson:"cSign1"`
+	CSign2        string `json:"cSign2" bson:"cSign2"`
+	CSign3        string `json:"cSign3" bson:"cSign3"`
+	CSign4        string `json:"cSign4" bson:"Sign4"`
+	CSign5        string `json:"cSign5" bson:"cSign5"`
+	CSign6        string `json:"cSign6" bson:"cSign6"`
+	CAverageScore string `json:"cAverageScore" bson:"cAverageScore"`
+	CLossGain     string `json:"cLossGain" bson:"cLossGain"`
+	CreateDate    string `json:"CreateDate" bson:"CreateDate"`
 
 	cRevN string
 	cRev  string
