@@ -16,6 +16,7 @@ type Item struct {
 	CStockName    string
 	CNewestSeason string
 	CNewestRev    string
+
 	CSign1        string
 	CSign2        string
 	CSign3        string
@@ -23,18 +24,18 @@ type Item struct {
 	CSign5        string
 	CSign6        string
 	CAverageScore string
-	CLossGain     string
+	cLossGain     string
 	CreateDate    string
-	CRevN         string
 
-	cRev string
-	ca1N string
-	ca2N string
-	ca3N string
-	ca4N string
-	ca5N string
-	ca6N string
-	ca7N string
+	cRevN string
+	cRev  string
+	ca1N  string
+	ca2N  string
+	ca3N  string
+	ca4N  string
+	ca5N  string
+	ca6N  string
+	ca7N  string
 
 	cna1              string
 	cna2              string
