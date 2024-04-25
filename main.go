@@ -26,17 +26,22 @@ type Item struct {
 	AverageScore string `json:"cAverageScore" bson:"cAverageScore"`
 	LossGain     string `json:"cLossGain" bson:"cLossGain"`
 	CreateDate   string `json:"CreateDate" bson:"CreateDate"`
-	A1N          string `json:"ca1N" bson:"ca1N"`
-	A2N          string `json:"ca2N" bson:"ca2N"`
+}
 
-	RevN string `json:"cRevN" bson:"cRevN"`
-	Rev  string `json:"cRev" bson:"cRev"`
-	ca3N string `json:"ca3N" bson:"ca3N"`
-	ca4N string `json:"ca4N" bson:"ca4N"`
-	ca5N string `json:"ca5N" bson:"ca5N"`
-	ca6N string `json:"ca6N" bson:"ca6N"`
-	ca7N string `json:"ca7N" bson:"ca7N"`
+type Item1 struct {
+	StockID string `json:"cStockID" bson:"cStockID"`
+	RevN    string `json:"cRevN" bson:"cRevN"`
+	Rev     string `json:"cRev" bson:"cRev"`
+	a1N     string `json:"ca1N" bson:"ca1N"`
+	ca2N    string `json:"ca2N" bson:"ca2N"`
+	ca3N    string `json:"ca3N" bson:"ca3N"`
+	ca4N    string `json:"ca4N" bson:"ca4N"`
+	ca5N    string `json:"ca5N" bson:"ca5N"`
+	ca6N    string `json:"ca6N" bson:"ca6N"`
+	ca7N    string `json:"ca7N" bson:"ca7N"`
+}
 
+type Item2 struct {
 	cna1              string
 	cna2              string
 	cna3              string
@@ -192,7 +197,7 @@ func main() {
 func readItem(c *gin.Context) {
 	name := c.Param("name")
 
-	var item Item
+	var item Item1
 	err := collection.FindOne(context.Background(), bson.M{"cStockID": name}).Decode(&item)
 	if err != nil {
 		c.JSON(404, gin.H{"error": "Item not found"})
