@@ -68,7 +68,92 @@ type Item struct {
 	Cb8   float64 `json:"cb8" bson:"cb8"`
 	Cb9   float64 `json:"cb9" bson:"cb9"`
 	Cb10  float64 `json:"cb10" bson:"cb10"`
-	Cb10P string  `json:"cb10P" bson:"cb10P"`
+	Cb10p string  `json:"cb10p" bson:"cb10p"`
+
+	//CInvTON     []string
+	//CInvTO      []string
+	Ce1N        string `json:"ce1N" bson:"ce1N"`
+	Ce2N        string `json:"ce2N" bson:"ce2N"`
+	Ce3N        string `json:"ce3N" bson:"ce3N"`
+	Ce4N        string `json:"ce4N" bson:"ce4N"`
+	Ce5N        string `json:"ce5N" bson:"ce5N"`
+	Ce6N        string `json:"ce6N" bson:"ce6N"`
+	Ce7N        string `json:"ce7N" bson:"ce7N"`
+	Ce8N        string `json:"ce8N" bson:"ce8N"`
+	Ce1         string
+	Ce2         string
+	Ce3         string
+	Ce4         string
+	Ce5         string
+	Ce6         string
+	Ce7         string
+	Ce8         string
+	CnewestFinQ string
+
+	//CNetIncomeN []string
+	//CNetIncome  []string
+	Cc1N  string
+	Cc2N  string
+	Cc3N  string
+	Cc4N  string
+	Cc5N  string
+	Cc6N  string
+	Cc7N  string
+	Cc8N  string
+	Cc1   string
+	Cc2   string
+	Cc3   string
+	Cc4   string
+	Cc5   string
+	Cc6   string
+	Cc7   string
+	Cc8   string
+	Cc9   string
+	Cc10  string
+	Cc11  string
+	Cpc9  string
+	Cpc10 string
+	Cpc11 string
+
+	//CEPSN []string
+	//CEPS  []string
+	CD1N string
+	CD2N string
+	CD3N string
+	CD4N string
+	CD5N string
+	CD6N string
+	CD7N string
+	CD8N string
+	CD1  string
+	CD2  string
+	CD3  string
+	CD4  string
+	CD5  string
+	CD6  string
+	CD7  string
+	CD8  string
+
+	//CCashFlowN []string
+	//CCashFlow  []string
+	Cf1N string
+	Cf2N string
+	Cf3N string
+	Cf4N string
+	Cf5N string
+	Cf6N string
+	Cf7N string
+	Cf8N string
+	Cf1  string
+	Cf2  string
+	Cf3  string
+	Cf4  string
+	Cf5  string
+	Cf6  string
+	Cf7  string
+	Cf8  string
+	Cf9  string
+	Cf10 string
 }
 
 var collection *mongo.Collection
