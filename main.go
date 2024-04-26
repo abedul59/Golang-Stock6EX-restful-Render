@@ -114,6 +114,46 @@ type Item struct {
 	Cpc9  string  `json:"cpc9" bson:"cpc9"`
 	Cpc10 string  `json:"cpc10" bson:"cpc10"`
 	Cpc11 string  `json:"cpc11" bson:"cpc11"`
+
+	//CEPSN []string
+	//CEPS  []string
+	CD1N string  `json:"cd1N" bson:"cd1N"`
+	CD2N string  `json:"cd2N" bson:"cd2N"`
+	CD3N string  `json:"cd3N" bson:"cd3N"`
+	CD4N string  `json:"cd4N" bson:"cd4N"`
+	CD5N string  `json:"cd5N" bson:"cd5N"`
+	CD6N string  `json:"cd6N" bson:"cd6N"`
+	CD7N string  `json:"cd7N" bson:"cd7N"`
+	CD8N string  `json:"cd8N" bson:"cd8N"`
+	CD1  float64 `json:"cd1" bson:"cd1"`
+	CD2  float64 `json:"cd2" bson:"cd2"`
+	CD3  float64 `json:"cd3" bson:"cd3"`
+	CD4  float64 `json:"cd4" bson:"cd4"`
+	CD5  float64 `json:"cd5" bson:"cd5"`
+	CD6  float64 `json:"cd6" bson:"cd6"`
+	CD7  float64 `json:"cd7" bson:"cd7"`
+	CD8  float64 `json:"cd8" bson:"cd8"`
+
+	//CCashFlowN []string
+	//CCashFlow  []string
+	Cf1N string  `json:"cf1N" bson:"cf1N"`
+	Cf2N string  `json:"cf2N" bson:"cf2N"`
+	Cf3N string  `json:"cf3N" bson:"cf3N"`
+	Cf4N string  `json:"cf4N" bson:"cf4N"`
+	Cf5N string  `json:"cf5N" bson:"cf5N"`
+	Cf6N string  `json:"cf6N" bson:"cf6N"`
+	Cf7N string  `json:"cf7N" bson:"cf7N"`
+	Cf8N string  `json:"cf8N" bson:"cf8N"`
+	Cf1  float64 `json:"cf1" bson:"cf1"`
+	Cf2  float64 `json:"cf2" bson:"cf2"`
+	Cf3  float64 `json:"cf3" bson:"cf3"`
+	Cf4  float64 `json:"cf4" bson:"cf4"`
+	Cf5  float64 `json:"cf5" bson:"cf5"`
+	Cf6  float64 `json:"cf6" bson:"cf6"`
+	Cf7  float64 `json:"cf7" bson:"cf7"`
+	Cf8  float64 `json:"cf8" bson:"cf8"`
+	Cf9  float64 `json:"cf9" bson:"cf9"`
+	Cf10 float64 `json:"cf10" bson:"cf10"`
 }
 
 var collection *mongo.Collection
