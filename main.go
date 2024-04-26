@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -175,7 +176,9 @@ func main() {
 
 	// Set up a new gin router
 	r := gin.Default()
-
+	corsConfig := cors.DefaultConfig()
+	corsConfig.AllowAllOrigins = true
+	r.Use(cors.New(corsConfig))
 	// Set up the MongoDB collection
 	collection = client.Database("test").Collection("s6r202403")
 
