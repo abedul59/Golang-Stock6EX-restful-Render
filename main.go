@@ -80,7 +80,7 @@ type Item struct {
 	Ce6N        string  `json:"ce6N" bson:"ce6N"`
 	Ce7N        string  `json:"ce7N" bson:"ce7N"`
 	Ce8N        string  `json:"ce8N" bson:"ce8N"`
-	Ce1         float64 `json:"ce1" bson:"ce1"`         float64 `json:"ce1" bson:"ce1"`
+	Ce1         float64 `json:"ce1" bson:"ce1"`
 	Ce2         float64 `json:"ce2" bson:"ce2"`
 	Ce3         float64 `json:"ce3" bson:"ce3"`
 	Ce4         float64 `json:"ce4" bson:"ce4"`
@@ -92,30 +92,28 @@ type Item struct {
 
 	//CNetIncomeN []string
 	//CNetIncome  []string
-	Cc1N  string `json:"cc1N" bson:"cc1N"`
-	Cc2N  string `json:"cc2N" bson:"cc2N"`
-	Cc3N  string `json:"cc3N" bson:"cc3N"`
-	Cc4N  string `json:"cc4N" bson:"cc4N"`
-	Cc5N  string `json:"cc5N" bson:"cc5N"`
-	Cc6N  string `json:"cc6N" bson:"cc6N"`
-	Cc7N  string `json:"cc7N" bson:"cc7N"`
-	Cc8N  string `json:"cc8N" bson:"cc8N"`
+	Cc1N  string  `json:"cc1N" bson:"cc1N"`
+	Cc2N  string  `json:"cc2N" bson:"cc2N"`
+	Cc3N  string  `json:"cc3N" bson:"cc3N"`
+	Cc4N  string  `json:"cc4N" bson:"cc4N"`
+	Cc5N  string  `json:"cc5N" bson:"cc5N"`
+	Cc6N  string  `json:"cc6N" bson:"cc6N"`
+	Cc7N  string  `json:"cc7N" bson:"cc7N"`
+	Cc8N  string  `json:"cc8N" bson:"cc8N"`
 	Cc1   float64 `json:"cc1" bson:"cc1"`
-	Cc2         float64 `json:"cc2" bson:"cc2"`
-	Cc3         float64 `json:"cc3" bson:"cc3"`
-	Cc4         float64 `json:"cc4" bson:"cc4"`
-	Cc5         float64 `json:"cc5" bson:"cc5"`
-	Cc6         float64 `json:"cc6" bson:"cc6"`
-	Cc7         float64 `json:"cc7" bson:"cc7"`
-	Cc8         float64 `json:"cc8" bson:"cc8"`
-	Cc9         float64 `json:"cc9" bson:"cc9"`
-	Cc10         float64 `json:"cc10" bson:"cc10"`
-	Cc11         float64 `json:"cc11" bson:"cc11"`
-	Cpc9  	string `json:"cpc9" bson:"cpc9"`
-	Cpc10  	string `json:"cpc10" bson:"cpc10"`
-	Cpc11  	string `json:"cpc11" bson:"cpc11"`
-
-
+	Cc2   float64 `json:"cc2" bson:"cc2"`
+	Cc3   float64 `json:"cc3" bson:"cc3"`
+	Cc4   float64 `json:"cc4" bson:"cc4"`
+	Cc5   float64 `json:"cc5" bson:"cc5"`
+	Cc6   float64 `json:"cc6" bson:"cc6"`
+	Cc7   float64 `json:"cc7" bson:"cc7"`
+	Cc8   float64 `json:"cc8" bson:"cc8"`
+	Cc9   float64 `json:"cc9" bson:"cc9"`
+	Cc10  float64 `json:"cc10" bson:"cc10"`
+	Cc11  float64 `json:"cc11" bson:"cc11"`
+	Cpc9  string  `json:"cpc9" bson:"cpc9"`
+	Cpc10 string  `json:"cpc10" bson:"cpc10"`
+	Cpc11 string  `json:"cpc11" bson:"cpc11"`
 }
 
 var collection *mongo.Collection
